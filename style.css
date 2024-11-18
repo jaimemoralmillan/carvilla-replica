@@ -1,0 +1,465 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  color: white;
+  background-image: url("resources/images/welcome-hero/welcome-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+header input {
+
+  color:white;
+}
+
+#opacidad {
+  background-color: rgba(54, 54, 190, 0.275);
+  height: 100vh;
+  width: 100vw;
+}
+
+#fixedMenu {
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0px 60px 60px;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+
+  top: 87%;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 4px gray;
+}
+
+.columna {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+#fixedMenu p {
+  color: black;
+}
+
+#fixedMenu select {
+  background-color: rgb(228, 228, 228);
+}
+
+#fixedMenu select option {
+  color: black;
+}
+
+#fixedMenuButton {
+  background-color: #4e4ffa;
+  color: white;
+  height: 50px;
+  width:  160px;
+  position:relative;
+  right:60%;
+}
+
+#headerTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+#headerTop ul {
+  list-style: none;
+  display: flex;
+}
+
+#headerTop li {
+  margin: 10px;
+  font-size: larger;
+  color: white;
+}
+
+#headerTop li:hover {
+  color: blue;
+}
+
+#headerTopLogo {
+  margin-left: 30vh;
+  margin-top: 5vh;
+  color: white;
+}
+
+#headerTopMenu {
+  margin-right: 30vh;
+  margin-top: 5vh;
+}
+
+#headerCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+#fraseTop {
+  margin-top: 8vh;
+}
+
+#headerCenter input {
+  margin-top: 20px;
+  background-color: rgb(77, 77, 255);
+  padding: 15px;
+  width: 20vh;
+}
+
+main {
+}
+
+#ContenedorTarjetas {
+  background-color: white;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.tarjetas1 {
+  border: solid rgb(186, 177, 177) 1px;
+
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 100px 30px;
+}
+
+.tarjetas1 img {
+  width: 20%;
+  height: 20%;
+  padding-bottom: 20px;
+}
+
+.tarjetas1 h3 {
+  color: grey;
+}
+
+.tarjetas1 p {
+  color: gray;
+}
+
+.tarjetas1 hr {
+  background-color: blue;
+  width: 20px;
+  height: 2px;
+  margin-top: 20px;
+}
+
+
+#newestCars {
+  background-color: #f9f8fb;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#topNewestCars {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#topNewestCars hr {
+  background-color: blue;
+  width: 80px;
+  height: 2px;
+  margin-top: 20px;
+}
+
+
+#topNewestCars p h1 h2 h3 {
+  color: black;
+}
+
+#midNewestCars {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+#textoNewestCars {
+  display: flex;
+  align-items: top;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#textoNewestCars input {
+ width: 40%;
+ height: 50px;
+ padding: 4px;;
+  background-color: rgb(92, 92, 246);
+  color: white;
+
+}
+
+#puntos {
+  margin-top: 200px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: grey;
+}
+
+#featuredCars {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+#featuredCars img {
+  width: 200px;
+  height: 100px;
+}
+
+#featuredText {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#featuredText hr {
+  background-color: blue;
+  width: 80px;
+  height: 2px;
+  margin-top: 20px;
+}
+
+#featuredCarsTop {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+#featuredCarsBot {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 120px;
+}
+
+.featuredTarjeta {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.featuredTarjetaBorder {
+  border: 1px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 10%;
+  color: grey;
+}
+
+.featuredTarjetaBorder img {
+  padding: 100px 50px 0px 50px;
+}
+
+.featuredTarjetaNoBorder h2 {
+  color: #4a444f;
+}
+.featuredTarjetaBorderBot {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#clientSay {
+  background-color: #f9f8fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#clientSayTop {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clientSayTop hr {
+  background-color: blue;
+  width: 80px;
+  height: 2px;
+  margin-top: 20px;
+}
+
+#clientSayTarjetasContainer {
+ display:flex;
+ flex-direction: row;
+
+justify-content: center;
+  gap: 30px;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+.clientSayTarjetas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  border: 1px rgb(193, 190, 190) solid;
+  min-width: 25%;
+  padding: 5% 10%;
+}
+
+.clientSayTarjetas img {
+  height: 80px;
+  width: 80px;
+}
+
+.clientSayTextBot {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clientSayTextBot h3 {
+  color: #4a444f;
+}
+
+#marcas {
+  background-color: white;
+margin: 10% 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+#footer {
+  z-index: 1;
+  background-color: #2a2d54;
+  min-height: 60vh;
+  color: white;
+}
+
+#footerTop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.footerColumnas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 3%;
+  min-height: 30vh;
+}
+
+#footerColumna1 {
+  width: 18%;
+}
+
+#footerColumna1 h1 {
+  margin-bottom: 10%;
+}
+
+#footerColumna1 p {
+  margin-top: 30px;
+}
+
+#footerColumna4 {
+  margin-top: 7%;
+}
+
+#footerColumna5 {
+  margin-left: 5%;
+  gap: 20px;
+}
+
+#footerColumna5 input {
+  background-color: #26294d;
+  box-shadow: 2px 2px 10px 2px #1c1e39;
+}
+
+#footerBot {
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  gap: 42%;
+  color: #6e708b;
+}
+
+#footerBot img {
+  height: 20px;
+  width: 30px;
+}
+
+#footerBoticonsimg {
+  display: flex;
+  gap: 20px;
+}
+
+#queEsunHr hr {
+  width: 74%;
+  background-color: grey;
+  height: 1px;
+  border: none;
+}
+
+#queEsunHr {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10vh;
+}
